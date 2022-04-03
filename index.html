@@ -1,0 +1,88 @@
+<html>
+
+<head>
+    <title>Meu Jogo da Velha!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <section class="main">
+        <div class="center">
+
+        </div>
+        <div class="mockup">
+            <h1>Jogo da Velha!</h1>
+            <br />
+            <p>Vamos Jogar?</p>
+            <br />
+
+            <div>
+                <li id="1" class="quadrado" onclick="escolherQuadrado(this.id)">-</li>
+                <li id="2" class="quadrado" onclick="escolherQuadrado(this.id)">-</li>
+                <li id="3" class="quadrado" onclick="escolherQuadrado(this.id)">-</li>
+            </div>
+            <div>
+                <li id="4" class="quadrado" onclick="escolherQuadrado(this.id)">-</li>
+                <li id="5" class="quadrado" onclick="escolherQuadrado(this.id)">-</li>
+                <li id="6" class="quadrado" onclick="escolherQuadrado(this.id)">-</li>
+            </div>
+            <div>
+                <li id="7" class="quadrado" onclick="escolherQuadrado(this.id)">-</li>
+                <li id="8" class="quadrado" onclick="escolherQuadrado(this.id)">-</li>
+                <li id="9" class="quadrado" onclick="escolherQuadrado(this.id)">-</li>
+            </div>
+            <div class="jogador">
+                <label>
+                    Jogador
+                </label>
+
+                <label id=Jogador-Selecionado> </label>
+            </div>
+            <div class="vencedor">
+                <label>
+                    Vencedor
+                </label>
+
+                <label id=Vencedor-Selecionado> </label>
+            </div>
+            <div>
+                <button onclick="reiniciar()">
+                    Reiniciar
+                </button>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <section class="contato">
+        <h1>Gostou do projeto? Entre em contato e deixe sua sugestão!</h1>
+        <div style="max-width: 900px;" class="center">
+
+            <form method="post">
+                <input type="text" placeholder="Seu Nome..." />
+                <input type="email" placeholder="Seu e-mail" />
+                <textarea placeholder="Sua Mensagem..."></textarea>
+                <input type="submit" name="acao" value="Enviar!" </form>
+        </div>
+    </section>
+
+    <footer>
+        <div style="max-width: 1280px;" class="center">
+            <div class="text-footer">
+                <p>Todos os direitos reservados a Catia Larissa</p>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+<script src="velha.js"></script>
+
+</html>

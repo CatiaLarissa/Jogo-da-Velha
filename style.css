@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.center {
+    display: flex;
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+section.main {
+    background-image: url('images/bg.svg');
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+    padding: 20px 0 80px 0;
+
+}
+
+
+.mockup {
+
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.mockup h1 {
+    font-size: 100px;
+}
+
+.mockup p {
+    font-size: 50px;
+}
+
+.quadrado {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(174, 170, 170);
+    display: inline-block;
+    padding: 40px;
+    font-size: 25px;
+    margin: 15px;
+    cursor: pointer;
+    color: rgb(170, 172, 174)
+}
+
+.jogador,
+.vencedor {
+    margin-top: 10px;
+    color: blue;
+    font-size: 30px;
+}
+
+button {
+    margin-top: 10px;
+    width: 70px;
+    height: 40px;
+    background: gray;
+    cursor: pointer;
+}
+
+
+section.contato {
+    padding: 40px 0;
+    text-align: center;
+}
+
+section.contato h1 {
+    font-size: 30px;
+}
+
+section.contato form {
+    width: 100%;
+}
+
+
+.contato input[type=text],
+.contato input[type=email] {
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+    border-radius: 10px;
+    background: #FCFDFF;
+    border: 1px solid #C3CCE8;
+    padding-left: 10px;
+}
+
+.contato textarea {
+    width: 100%;
+    height: 120px;
+    margin: 20px 0;
+    border-radius: 10px;
+    background: #FCFDFF;
+    border: 1px solid #C3CCE8;
+    padding: 10px;
+    resize: vertical;
+}
+
+.contato input[type=submit] {
+    width: 100%;
+    height: 50px;
+    display: block;
+    cursor: pointer;
+    border: 0;
+    background: #255AFF;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+
+footer {
+    padding: 10px 0;
+    background: #255AFF;
+    color: white;
+}
+
+.text-footer {
+    width: 50%;
+    padding: 8px 0;
+}
+
+
+.text-footer {
+    width: 100%;
+    text-align: center;
+    padding: 8px 0;
+}
